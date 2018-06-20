@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vending Machine</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center"> Vending Machine </h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="options">
+
+                    <!-- <button type="button" class="col-sm-3" style="margin: 3%">
+                        <p id ="itemId" style="vertical-align:top; text-align: left"> Test </p>
+                        <p id ="itemName" style="text-align: center"> Cheetos </p>
+                        <p id = "itemPrice" style="text-align: center">dsfdf</p>
+                        <p id = "itemQuantity" style="text-align: bottom;">dsfdff</p>
+                
+                    </button> -->
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="updates">
+                    <div id="Money">
+                        <h1>Total $ In </h1>
+                        <form class="form-horizontal" id="userMoney">
+                            <div class="col-lg-10">
+                                <input class="form-control" id="add-userMoney">
+                            </div>
+                        </form>
+                        <div id="addmoney-button-group" class="col-lg-10">
+                            <button  class="ambg ; col-md-1.5" style="margin: 1%" id="add-dollar">Add Dollar</button>
+                            <button  class="ambg ; col-md-1.5" style="margin: 1%" id="add-quarter">Add Quarter</button>
+                            <button  class="ambg ; col-md-1.5" style="margin: 1%" id="add-dime">Add Dime</button>
+                            <button  class="ambg ; col-md-1.5" style="margin: 1%" id="add-nickel">Add Nickel</button>
+                        </div>
+                    </div>
+                    <hr/>
+                    <br>
+                    <br> &nbsp;
+                    <div id="Purchase">
+                        <h1>Messages </h1>
+                        <form class="form-horizontal" role="form" id="messages">
+                            <div class="col-lg-10">
+                                <input  class="form-control" id="purchase-message">
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form" id="userPickId">
+                            <div class="col-lg-10">
+                                <label for="messages" class="col-lg-4"> Item: </label>
+                                <input  class="form-control; col-lg-4" id="purchase-itemId">
+                            </div>
+                        </form>
+                        <div id="make-purchase-button" class="col-lg-10">
+                            <button type="button" class="buyStuff" style="margin: 1%; position: center" onclick="purchaseItem()">Make Purchase</button>
+
+                        </div>
+                    </div>
+                    <hr/>
+                    <br>
+                    <br> &nbsp;
+                    <div id="Change">
+                        <h1> Change </h1>
+                        <form class="form-horizontal" role="math" id="userChange">
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="get-change">
+                            </div>
+                        </form>
+                        <div class="col-lg-10">
+                            <button type="button" class="col-md-1.5" style="margin: 1%" id="button-change">Get Change</button>
+                            <!-- Hide button after calling it -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+        <hr>
+        <br>
+        <p>Just wanted some space down here</p>
+    </footer>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
